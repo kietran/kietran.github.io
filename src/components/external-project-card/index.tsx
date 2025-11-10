@@ -5,6 +5,18 @@ import { MdOpenInNew } from 'react-icons/md';
 import { ga, skeleton } from '../../utils';
 import { SanitizedExternalProject } from '../../interfaces/sanitized-config';
 
+// Helper function to parse **text** as bold
+const parseBoldText = (text: string) => {
+  const parts = text.split(/(\*\*.*?\*\*)/g);
+  return parts.map((part, index) => {
+    if (part.startsWith('**') && part.endsWith('**')) {
+      const boldText = part.slice(2, -2);
+      return <strong key={index}>{boldText}</strong>;
+    }
+    return part;
+  });
+};
+
 const ExternalProjectCard = ({
   externalProjects,
   header,
@@ -94,7 +106,7 @@ const ExternalProjectCard = ({
               <div className="px-4">
                 <div className="text-center w-full">
                   <h2 className="font-medium text-center opacity-60 mb-2">
-                    {item.title}
+                    {parseBoldText(item.title)}
                   </h2>
                   {item.imageUrl && (
                     <div className="avatar opacity-90">
@@ -112,7 +124,7 @@ const ExternalProjectCard = ({
                     </div>
                   )}
                   <p className="mt-2 text-base-content text-sm text-justify">
-                    {item.description}
+                    {item.description ? parseBoldText(item.description) : ''}
                   </p>
                 </div>
               </div>

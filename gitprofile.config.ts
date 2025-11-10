@@ -33,7 +33,7 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: '**Smart Security System**',
+          title: '**Smart Security System - VNTT**',
           description:
             'Developed and deployed a large-scale, real-time AI traffic monitoring system for 6 major industrial zones. Managed the full project lifecycle, from model development and production optimization to on-site hardware calibration.',
           imageUrl:
@@ -42,72 +42,121 @@ const CONFIG = {
           details: {
             overview: 'Developed and deployed a large-scale, real-time AI traffic monitoring system for 6 major industrial zones. Managed the full project lifecycle, from model development and production optimization to on-site hardware calibration.',
             contributions: [
-              '• Scaled System Performance: Optimized the end-to-end inference pipeline (CPU/GPU) to successfully process and analyze **130 concurrent camera** streams in real-time.',
-              '• Developed & Deployed C++ Models: Built models for vehicle classification, counting, and real-time violation detection (wrong-way, lane-violation). Quantized models and deployed them using TensorRT for high-throughput, low-latency inference on edge devices.',
-              '• Built ML Ops Pipelines: Implemented a self-labeling pipeline to autonomously gather new data, enabling continuous model improvement and accuracy in a production environment.',
-              '• Full-Stack Integration: Handled on-site camera installation and calibration to ensure high LPR (License Plate Recognition) accuracy, and integrated AI overlays (vehicle type, plate) into low-latency HLS live streams.',
+              '**Scaled System Performance:** Optimized the end-to-end inference pipeline (CPU/GPU) to successfully process and analyze **130 concurrent camera** streams in real-time.',
+              '**Developed & Deployed C++ Models:** Built models for vehicle classification, counting, and real-time violation detection (wrong-way, lane-violation). Quantized models and deployed them using TensorRT for high-throughput, low-latency inference on edge devices.',
+              '**Built ML Ops Pipelines:** Implemented a self-labeling pipeline to autonomously gather new data, enabling continuous model improvement and accuracy in a production environment.',
+              '**Full-Stack Integration:** Handled on-site camera installation and calibration to ensure high LPR (License Plate Recognition) accuracy, and integrated AI overlays (vehicle type, plate) into low-latency HLS live streams.',
             ],
             techStack: [
               'Python', 'PyTorch', 'TensorRT', 'YOLO11', 'OpenCV', 'HLS', 'FFmpeg', 'Docker', 'Kafka', 'PostgreSQL', 'MQTT', 'FastAPI', 'MongoDB'
             ],
             images: [
-              'media/1746963344280.jpg',
-              'media/1746963375450.jpg',
-              'media/1746965499972.jpg',
-              'media/Screenshot_20251110_203103.png',
-              'media/Screenshot_20251110_203148.png'
+              'https://media.licdn.com/dms/image/v2/D562DAQHyuJPBaJ4eWg/profile-treasury-image-shrink_480_480/B56Za_QgZTGkAM-/0/1746965499972?e=1763388000&v=beta&t=il9TKRm5J0z53vEXtQ-u7QBjaYwE0WhMc-k59l5onhs',
+              'https://media.licdn.com/dms/image/v2/D562DAQHODfDYmi4RQA/profile-treasury-image-shrink_480_480/B56Za_ISbaHUAM-/0/1746963344281?e=1763388000&v=beta&t=_oUeIf0z1W8Amize3A3WQWLmJP4yVvN687besqwF3Pw',
+              'https://media.licdn.com/dms/image/v2/D562DAQG35RMvRZP35g/profile-treasury-image-shrink_480_480/B56Za_IaC0GkAM-/0/1746963375408?e=1763388000&v=beta&t=nzPijCnm_yu-7wL3Vv1goIVKYK3-BXYM-bp3qxCjQh8',
+              'https://media.licdn.com/dms/image/v2/D562DAQEi6GO-KT5gfA/profile-treasury-image-shrink_480_480/B56Zpt_ue6JkAQ-/0/1762782014410?e=1763388000&v=beta&t=cJzcb0SWkh4hCC2VJv8AkJ2iKlqbuWAGtQ3-dWJPTwc',
+              'https://media.licdn.com/dms/image/v2/D562DAQFJq_DH7VwxBw/profile-treasury-image-shrink_480_480/B56Zpt_ue7KEAM-/0/1762782014245?e=1763388000&v=beta&t=URYpzVGVnU8s8R65BXwz1rowgDKG_IvMmaWFmhZT0nA'
             ],
             videos: ['https://youtu.be/7JN0knxwZK0?si=A4cLcnYUpg9Cs4Q5'],
           },
         },
         {
-          title: 'Task Management System',
+          title: '**Smart Environment System - VNTT**',
           description:
-            'A collaborative task management tool with real-time updates and team collaboration features.',
+            'Engineered an AI-powered security and access control system to monitor vehicle activity at critical pump stations. The system fully automated vehicle identification (LPR), activity logging, and real-time security alerting.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            '',
+          link: '',
           details: {
-            overview: 'Developed a modern task management system that enables teams to collaborate effectively. Features include task assignment, progress tracking, deadline management, and real-time notifications.',
+            overview: 'Engineered an AI-powered security and access control system to monitor vehicle activity at critical pump stations. The system fully automated vehicle identification (LPR), activity logging, and real-time security alerting.',
             contributions: [
-              'Implemented drag-and-drop kanban board interface',
-              'Built real-time collaboration features',
-              'Created notification system for task updates',
-              'Developed user role and permission management',
-              'Integrated calendar view for deadline tracking',
+              '**Achieved >97% detection accuracy** across diverse lighting and weather conditions, ensuring high system reliability.',
+              '**Engineered a concurrent processing pipeline** using multiprocessing and multithreading to reliably analyze 10 simultaneous camera streams.',
+              '**Implemented a real-time alerting system** that flagged unauthorized vehicle access (based on a predefined whitelist), significantly enhancing operational security.',
+              '**Automated event tracking and reporting** (vehicle logs, LPR, timestamps), which reduced manual workload and improved operational oversight.',
             ],
             techStack: [
-              'React',
-              'TypeScript',
-              'Firebase',
-              'Material-UI',
-              'React DnD',
-              'Socket.io',
-              'JWT',
-            ],
-            lessonsLearned: [
-              'Real-time data synchronization best practices',
-              'Effective UI/UX design for productivity tools',
-              'Managing complex state with React Context',
-              'Authentication and authorization patterns',
-            ],
-            difficulties: [
-              'Handling conflicts in real-time collaborative editing - Implemented CRDT-like conflict resolution',
-              'Complex drag-and-drop functionality - Used React DnD library with custom hooks',
-              'Managing offline functionality - Implemented service workers and local storage sync',
+              'Python', 'OpenCV', 'YOLO11', 'PaddleOCR', 'Multiprocessing', 'Multithreading', 'MongoDB', 'Docker', 'Redis'
             ],
             images: [
-              'https://via.placeholder.com/600x400?text=Kanban+Board',
-              'https://via.placeholder.com/600x400?text=Task+Details',
-              'https://via.placeholder.com/600x400?text=Calendar+View',
+              'https://media.licdn.com/dms/image/v2/D562DAQFQQT7LwjmbPQ/profile-treasury-image-shrink_1280_1280/B56ZpuDdcIG0AU-/0/1762782993399?e=1763388000&v=beta&t=LsAMiaRlJoCfjh6pgpAXsAd_wQa85ZNN_vfRvNFq8g8',
+              'https://media.licdn.com/dms/image/v2/D562DAQFwuSLASbSZpw/profile-treasury-image-shrink_1280_1280/B56ZpuDdcKI8AQ-/0/1762782993638?e=1763388000&v=beta&t=3Q_dEEH-xVUpTbkBZg3RuYkMRm6F1eh1vaNH0tYVsEI',
             ],
             videos: [],
+          },
+        },
+        {
+          title: '**Smart Industrial Park Assistant - VNTT**',
+          description:
+            'Developed an integrated AI assistant (chatbot) to support a complex Smart Industrial Park ecosystem (comprising 3 subsystems). The assistant is designed to provide real-time operational insights and answer complex system-related queries.',
+          imageUrl:
+            '',
+          link: '',
+          details: {
+            overview: 'Developed an integrated AI assistant (chatbot) to support a complex Smart Industrial Park ecosystem (comprising 3 subsystems). The assistant is designed to provide real-time operational insights and answer complex system-related queries.',
+            contributions: [
+              '**Developed a Tool-Using Agent:** Built a chatbot capable of querying internal APIs to provide users with real-time event status, summarize incidents, and generate on-demand reports.',
+              '**Implemented Retrieval-Augmented Generation (RAG) Pipeline:** Engineered a Retrieval-Augmented Generation (RAG) pipeline, enabling the chatbot to accurately answer complex questions based on system documentation and user guides.',
+              '**Optimized LLM Serving:** Utilized **vLLM** for high-throughput, memory-efficient serving of the language models in a production environment.',
+            ],
+            techStack: [
+              'Python', 'LangGraph', 'Qwen', 'vLLM', 'Qdrant', 'RAG', 'FastAPI', 'Docker', 'SQL'
+            ],
+            videos: ['https://www.youtube.com/watch?v=89E7y7-upjs'],
+          },
+        },
+        {
+          title: '**BecaVMS (Core VMS System) - VNTT**',
+          description:
+            'Developed the core platform, a comprehensive and reusable Video Management System (VMS). This platform bundles standard VMS functionalities (live view, stream management, recording) with a suite of core AI features, designed as a foundational product to be customized for specific client deployments.',
+          imageUrl:
+            '',
+          link: '',
+          details: {
+            overview: 'Developed the core platform, a comprehensive and reusable Video Management System (VMS). This platform bundles standard VMS functionalities (live view, stream management, recording) with a suite of core AI features, designed as a foundational product to be customized for specific client deployments.',
+            contributions: [
+              'Engineered a **dual-line counting algorithm** to significantly reduce false positives (e.g., lingering vehicles) compared to traditional single-line methods.',
+              'Developed reusable core AI modules, including **Fall Detection** and **Dwell-Time Heatmaps**, for diverse spatial analytics (e.g., retail behavior, traffic density).',
+              'Packaged and served all AI features as microservices via **REST APIs** for seamless platform integration.',
+            ],
+            techStack: [
+              'Python', 'PyTorch', 'TensorRT', 'YOLO11', 'OpenCV', 'HLS', 'Docker', 'Kafka', 'PostgreSQL', 'MQTT', 'FastAPI'
+            ],
+            images: [
+              'https://media.licdn.com/dms/image/v2/D562DAQHZG7HvFKaoxA/profile-treasury-image-shrink_480_480/B56ZpuIVzJJQAM-/0/1762784272195?e=1763391600&v=beta&t=CvRc6Cmq0tSZK6f0O7HF5qN6rByXq77LckUN1x-1gAo',
+              'https://media.licdn.com/dms/image/v2/D562DAQHjTQK1q9Q2Mw/profile-treasury-image-shrink_480_480/B56Za_K41pGkAM-/0/1746964026026?e=1763391600&v=beta&t=-lAh4PeylJSWOOzHt1ShguYZgCO10eqmr4JtzLG6cFY',
+              'https://media.licdn.com/dms/image/v2/D562DAQE64AZLnMAEDg/profile-treasury-image-shrink_480_480/B56Za_K0jVH4AM-/0/1746964008992?e=1763391600&v=beta&t=dDGMZPRQNFU00FuH9KYK3igbvmNTBqNPJlw85Z8oLLw'
+            ],
+          },
+        },
+        {
+          title: '**AI Resume Processing System - Aniday**',
+          description:
+            'Engineered an end-to-end CV + NLP system to automate the company\'s recruitment pipeline by automatically preprocessing, classifying job roles, and extracting key information from candidate resumes.',
+          imageUrl:
+            '',
+          link: '',
+          details: {
+            overview: 'Engineered an end-to-end CV + NLP system to automate the company\'s recruitment pipeline by automatically preprocessing, classifying job roles, and extracting key information from candidate resumes.',
+            contributions: [
+              'Developed a system combining **Computer Vision** (for layout analysis) and **NLP** (for text understanding) to accurately extract personal information from diverse resume formats.',
+              'Built and trained an NLP classification model to automatically categorize candidate profiles based on job roles and experience.',
+              '**Deployed AI models into a production microservices environment** using **Docker** (containerization), **RabbitMQ** (message queue), and **NestJS** (backend integration).',
+              'Managed the complete AI model lifecycle, including data collection, data labeling, preprocessing, training, and evaluation.',
+            ],
+            techStack: [
+              'Python', 'PyTorch', 'Scikit-learn', 'NLP', 'OpenCV', 'Docker', 'RabbitMQ', 'NestJS', 'Microservices', 'REST APIs'
+            ],
+            images: [
+              'https://media.licdn.com/dms/image/v2/D562DAQFySBhK9jW9ug/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1737862972672?e=1763391600&v=beta&t=zLMEFkOkGc8iBcb167rnXSZE3ASKDu0C2I3JlgLkOMI',
+              'https://media.licdn.com/dms/image/v2/D562DAQE7OPFQYnZDnw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1737863314005?e=1763391600&v=beta&t=74Gc9NgG5bOJLQI3zohe2oc_2aoXGCZkMwoh7BQUMCM',
+            ],
           },
         },
       ],
     },
   },
-  seo: { title: 'Portfolio of Trần Quang Anh Kiệt', description: '', imageURL: '' },
+  seo: { title: 'Trần Quang Anh Kiệt | AI Engineer', description: '', imageURL: '' },
   social: {
     linkedin: 'https://www.linkedin.com/in/kitkit/',
     x: '',
@@ -163,8 +212,8 @@ const CONFIG = {
     {
       company: 'Aniday',
       position: 'AI Engineer Intern',
-      from: 'July 2019',
-      to: 'August 2021',
+      from: 'April 2024',
+      to: 'August 2024',
       companyLink: 'https://aniday.com/vi',
     },
   ],
