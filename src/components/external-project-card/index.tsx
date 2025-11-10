@@ -1,4 +1,5 @@
 import { Fragment } from 'react';
+import { useNavigate } from 'react-router-dom';
 import LazyImage from '../lazy-image';
 import { MdOpenInNew } from 'react-icons/md';
 import { ga, skeleton } from '../../utils';
@@ -15,6 +16,7 @@ const ExternalProjectCard = ({
   loading: boolean;
   googleAnalyticId?: string;
 }) => {
+  const navigate = useNavigate();
   const renderSkeleton = () => {
     const array = [];
     for (let index = 0; index < externalProjects.length; index++) {
@@ -69,13 +71,10 @@ const ExternalProjectCard = ({
 
   const renderExternalProjects = () => {
     return externalProjects.map((item, index) => (
-      <a
-        className="card shadow-md card-sm bg-base-100 cursor-pointer"
+      <div
+        className="card shadow-md card-sm bg-base-100 cursor-pointer hover:shadow-xl transition-shadow"
         key={index}
-        href={item.link}
-        onClick={(e) => {
-          e.preventDefault();
-
+        onClick={() => {
           try {
             if (googleAnalyticId) {
               ga.event('Click External Project', {
@@ -86,7 +85,7 @@ const ExternalProjectCard = ({
             console.error(error);
           }
 
-          window?.open(item.link, '_blank');
+          navigate(`/project/${index}`);
         }}
       >
         <div className="p-8 h-full w-full">
@@ -120,7 +119,7 @@ const ExternalProjectCard = ({
             </div>
           </div>
         </div>
-      </a>
+      </div>
     ));
   };
 
