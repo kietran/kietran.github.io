@@ -7,6 +7,19 @@ import { getSanitizedConfig } from './utils';
 
 const sanitizedConfig = getSanitizedConfig(CONFIG);
 
+if (typeof window !== 'undefined') {
+  const redirectPath = sessionStorage.getItem('redirect');
+  if (redirectPath) {
+    sessionStorage.removeItem('redirect');
+    const normalizedBase = CONFIG.base && CONFIG.base !== '/' ? CONFIG.base : '';
+    const currentPath =
+      window.location.pathname + window.location.search + window.location.hash;
+    if (!currentPath || currentPath === '/' || currentPath === normalizedBase) {
+      window.history.replaceState(null, '', redirectPath);
+    }
+  }
+}
+
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <BrowserRouter basename={CONFIG.base || '/'}>
