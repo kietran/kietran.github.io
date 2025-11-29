@@ -43,7 +43,7 @@ const CONFIG = {
             overview: 'Developed and deployed a large-scale, real-time AI traffic monitoring system for 6 major industrial zones. Managed the full project lifecycle, from model development and production optimization to on-site hardware calibration.',
             contributions: [
               '**Scaled System Performance:** Optimized the end-to-end inference pipeline (CPU/GPU) to successfully process and analyze **130 concurrent camera** streams in real-time.',
-              '**Developed & Deployed C++ Models:** Built models for vehicle classification, counting, and real-time violation detection (wrong-way, lane-violation). Quantized models and deployed them using TensorRT for high-throughput, low-latency inference on edge devices.',
+              '**Developed & Deployed Models:** Built models for vehicle classification, counting, and real-time violation detection (wrong-way, lane-violation). Quantized models and deployed them using TensorRT for high-throughput, low-latency inference on edge devices.',
               '**Built ML Ops Pipelines:** Implemented a self-labeling pipeline to autonomously gather new data, enabling continuous model improvement and accuracy in a production environment.',
               '**Full-Stack Integration:** Handled on-site camera installation and calibration to ensure high LPR (License Plate Recognition) accuracy, and integrated AI overlays (vehicle type, plate) into low-latency HLS live streams.',
             ],
@@ -51,11 +51,11 @@ const CONFIG = {
               'Python', 'PyTorch', 'TensorRT', 'YOLO11', 'OpenCV', 'HLS', 'FFmpeg', 'Docker', 'Kafka', 'PostgreSQL', 'MQTT', 'FastAPI', 'MongoDB'
             ],
             images: [
-              'https://media.licdn.com/dms/image/v2/D562DAQHyuJPBaJ4eWg/profile-treasury-image-shrink_480_480/B56Za_QgZTGkAM-/0/1746965499972?e=1763388000&v=beta&t=il9TKRm5J0z53vEXtQ-u7QBjaYwE0WhMc-k59l5onhs',
-              'https://media.licdn.com/dms/image/v2/D562DAQHODfDYmi4RQA/profile-treasury-image-shrink_480_480/B56Za_ISbaHUAM-/0/1746963344281?e=1763388000&v=beta&t=_oUeIf0z1W8Amize3A3WQWLmJP4yVvN687besqwF3Pw',
-              'https://media.licdn.com/dms/image/v2/D562DAQG35RMvRZP35g/profile-treasury-image-shrink_480_480/B56Za_IaC0GkAM-/0/1746963375408?e=1763388000&v=beta&t=nzPijCnm_yu-7wL3Vv1goIVKYK3-BXYM-bp3qxCjQh8',
-              'https://media.licdn.com/dms/image/v2/D562DAQEi6GO-KT5gfA/profile-treasury-image-shrink_480_480/B56Zpt_ue6JkAQ-/0/1762782014410?e=1763388000&v=beta&t=cJzcb0SWkh4hCC2VJv8AkJ2iKlqbuWAGtQ3-dWJPTwc',
-              'https://media.licdn.com/dms/image/v2/D562DAQFJq_DH7VwxBw/profile-treasury-image-shrink_480_480/B56Zpt_ue7KEAM-/0/1762782014245?e=1763388000&v=beta&t=URYpzVGVnU8s8R65BXwz1rowgDKG_IvMmaWFmhZT0nA'
+              'https://media.licdn.com/dms/image/v2/D562DAQHyuJPBaJ4eWg/profile-treasury-image-shrink_1280_1280/B56Za_QgZTGkAQ-/0/1746965499972?e=1765015200&v=beta&t=_NBuBCc0BQEYlDJ29BmMHaTNKh0EIA9U0OyNoY31mfw',
+              'https://media.licdn.com/dms/image/v2/D562DAQHODfDYmi4RQA/profile-treasury-image-shrink_1280_1280/B56Za_ISbaHUAQ-/0/1746963344280?e=1765015200&v=beta&t=BL6OiCUT3cvguzaTQ-wlTWLp72CtnSjpX8cS3drs5Fk',
+              'https://media.licdn.com/dms/image/v2/D562DAQG35RMvRZP35g/profile-treasury-image-shrink_1280_1280/B56Za_IaC0GkAQ-/0/1746963375450?e=1765015200&v=beta&t=XnpilHG-2ZhnmBu7oMYbnAPq0C5piKFd1R5VOC1cBjo',
+              'https://media.licdn.com/dms/image/v2/D562DAQEi6GO-KT5gfA/profile-treasury-image-shrink_1280_1280/B56Zpt_ue6JkAU-/0/1762782014401?e=1765015200&v=beta&t=aU8Ty-PKv4hC3gOulVmWn1AdkXiousUciFdQ5FuZvJ0',
+              'https://media.licdn.com/dms/image/v2/D562DAQFJq_DH7VwxBw/profile-treasury-image-shrink_8192_8192/B56Zpt_ue7KEAg-/0/1762782014257?e=1765015200&v=beta&t=9X5xprLF8xjQingAPsZStn80955bKOHVf6E6vVFr5JY'
             ],
             videos: ['https://youtu.be/7JN0knxwZK0?si=A4cLcnYUpg9Cs4Q5'],
           },
@@ -79,8 +79,8 @@ const CONFIG = {
               'Python', 'OpenCV', 'YOLO11', 'PaddleOCR', 'Multiprocessing', 'Multithreading', 'MongoDB', 'Docker', 'Redis'
             ],
             images: [
-              'https://media.licdn.com/dms/image/v2/D562DAQFQQT7LwjmbPQ/profile-treasury-image-shrink_1280_1280/B56ZpuDdcIG0AU-/0/1762782993399?e=1763388000&v=beta&t=LsAMiaRlJoCfjh6pgpAXsAd_wQa85ZNN_vfRvNFq8g8',
-              'https://media.licdn.com/dms/image/v2/D562DAQFwuSLASbSZpw/profile-treasury-image-shrink_1280_1280/B56ZpuDdcKI8AQ-/0/1762782993638?e=1763388000&v=beta&t=3Q_dEEH-xVUpTbkBZg3RuYkMRm6F1eh1vaNH0tYVsEI',
+              'https://media.licdn.com/dms/image/v2/D562DAQFQQT7LwjmbPQ/profile-treasury-image-shrink_1280_1280/B56ZpuDdcIG0AU-/0/1762782993399?e=1765015200&v=beta&t=cpGXsaOo-Lc_g5GQGnaVYWkSsD4SFrnQCUmu-TVyxjY',
+              'https://media.licdn.com/dms/image/v2/D562DAQFwuSLASbSZpw/profile-treasury-image-shrink_1280_1280/B56ZpuDdcKI8AQ-/0/1762782993638?e=1765015200&v=beta&t=uz0SMazABMMICD6CxlyOSS0XiH_afSbZhVP5k_L1xS0',
             ],
             videos: [],
           },
@@ -123,9 +123,9 @@ const CONFIG = {
               'Python', 'PyTorch', 'TensorRT', 'YOLO11', 'OpenCV', 'HLS', 'Docker', 'Kafka', 'PostgreSQL', 'MQTT', 'FastAPI'
             ],
             images: [
-              'https://media.licdn.com/dms/image/v2/D562DAQHZG7HvFKaoxA/profile-treasury-image-shrink_480_480/B56ZpuIVzJJQAM-/0/1762784272195?e=1763391600&v=beta&t=CvRc6Cmq0tSZK6f0O7HF5qN6rByXq77LckUN1x-1gAo',
-              'https://media.licdn.com/dms/image/v2/D562DAQHjTQK1q9Q2Mw/profile-treasury-image-shrink_480_480/B56Za_K41pGkAM-/0/1746964026026?e=1763391600&v=beta&t=-lAh4PeylJSWOOzHt1ShguYZgCO10eqmr4JtzLG6cFY',
-              'https://media.licdn.com/dms/image/v2/D562DAQE64AZLnMAEDg/profile-treasury-image-shrink_480_480/B56Za_K0jVH4AM-/0/1746964008992?e=1763391600&v=beta&t=dDGMZPRQNFU00FuH9KYK3igbvmNTBqNPJlw85Z8oLLw'
+              'https://media.licdn.com/dms/image/v2/D562DAQHZG7HvFKaoxA/profile-treasury-image-shrink_1280_1280/B56ZpuIVzJJQAQ-/0/1762784272212?e=1765015200&v=beta&t=938aqTWCm5SsfxztflJv3FfCHnxckEtw8sEPi1325Q8',
+              'https://media.licdn.com/dms/image/v2/D562DAQHjTQK1q9Q2Mw/profile-treasury-image-shrink_1280_1280/B56Za_K41pGkAQ-/0/1746964026085?e=1765015200&v=beta&t=ifce5hhw4YkGDIbSj7A57XcEgGBBvedjslrrKHxc9bY',
+              'https://media.licdn.com/dms/image/v2/D562DAQE64AZLnMAEDg/profile-treasury-image-shrink_1280_1280/B56Za_K0jVH4AQ-/0/1746964008992?e=1765015200&v=beta&t=ma4Y52LJne5Q47s6FWfLYtkyenkDNYKHa1MWbaMNnqE'
             ],
           },
         },
@@ -148,8 +148,8 @@ const CONFIG = {
               'Python', 'PyTorch', 'Scikit-learn', 'NLP', 'OpenCV', 'Docker', 'RabbitMQ', 'NestJS', 'Microservices', 'REST APIs'
             ],
             images: [
-              'https://media.licdn.com/dms/image/v2/D562DAQFySBhK9jW9ug/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1737862972672?e=1763391600&v=beta&t=zLMEFkOkGc8iBcb167rnXSZE3ASKDu0C2I3JlgLkOMI',
-              'https://media.licdn.com/dms/image/v2/D562DAQE7OPFQYnZDnw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1737863314005?e=1763391600&v=beta&t=74Gc9NgG5bOJLQI3zohe2oc_2aoXGCZkMwoh7BQUMCM',
+              'https://media.licdn.com/dms/image/v2/D562DAQFySBhK9jW9ug/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1737862972672?e=1765015200&v=beta&t=DoGIW9P1_7_6psgoqxSC4IYJVG09bCjTdmornNf7nvM',
+              'https://media.licdn.com/dms/image/v2/D562DAQE7OPFQYnZDnw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1737863314005?e=1765015200&v=beta&t=jygi_IFhuKH00v3TM7h1l6P6WjBgs2sjgF64L2cb8y4',
             ],
           },
         },
