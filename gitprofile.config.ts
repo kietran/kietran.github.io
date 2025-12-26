@@ -51,11 +51,11 @@ const CONFIG = {
               'Python', 'PyTorch', 'TensorRT', 'YOLO11', 'OpenCV', 'HLS', 'FFmpeg', 'Docker', 'Kafka', 'PostgreSQL', 'MQTT', 'FastAPI', 'MongoDB'
             ],
             images: [
-              'https://media.licdn.com/dms/image/v2/D562DAQHyuJPBaJ4eWg/profile-treasury-image-shrink_1280_1280/B56Za_QgZTGkAQ-/0/1746965499972?e=1765015200&v=beta&t=_NBuBCc0BQEYlDJ29BmMHaTNKh0EIA9U0OyNoY31mfw',
-              'https://media.licdn.com/dms/image/v2/D562DAQHODfDYmi4RQA/profile-treasury-image-shrink_1280_1280/B56Za_ISbaHUAQ-/0/1746963344280?e=1765015200&v=beta&t=BL6OiCUT3cvguzaTQ-wlTWLp72CtnSjpX8cS3drs5Fk',
-              'https://media.licdn.com/dms/image/v2/D562DAQG35RMvRZP35g/profile-treasury-image-shrink_1280_1280/B56Za_IaC0GkAQ-/0/1746963375450?e=1765015200&v=beta&t=XnpilHG-2ZhnmBu7oMYbnAPq0C5piKFd1R5VOC1cBjo',
-              'https://media.licdn.com/dms/image/v2/D562DAQEi6GO-KT5gfA/profile-treasury-image-shrink_1280_1280/B56Zpt_ue6JkAU-/0/1762782014401?e=1765015200&v=beta&t=aU8Ty-PKv4hC3gOulVmWn1AdkXiousUciFdQ5FuZvJ0',
-              'https://media.licdn.com/dms/image/v2/D562DAQFJq_DH7VwxBw/profile-treasury-image-shrink_8192_8192/B56Zpt_ue7KEAg-/0/1762782014257?e=1765015200&v=beta&t=9X5xprLF8xjQingAPsZStn80955bKOHVf6E6vVFr5JY'
+              'https://media.licdn.com/dms/image/v2/D562DAQHyuJPBaJ4eWg/profile-treasury-image-shrink_800_800/B56Za_QgZTGkAY-/0/1746965499971?e=1767319200&v=beta&t=f1_VHXDzqAtOwrXid0eL3kh0giLS-RsoWP9ez4_rTPk',
+              'https://media.licdn.com/dms/image/v2/D562DAQHODfDYmi4RQA/profile-treasury-image-shrink_800_800/B56Za_ISbaHUAY-/0/1746963344248?e=1767319200&v=beta&t=w7Z8BHEFE5I3RT5ZBKczVFP8WxjkQBM5byge1yvpi9E',
+              'https://media.licdn.com/dms/image/v2/D562DAQG35RMvRZP35g/profile-treasury-image-shrink_800_800/B56Za_IaC0GkAY-/0/1746963375408?e=1767319200&v=beta&t=NxyiTqS4WHPkNF3xvzxKksF5R_Ibn3n4tV7SW1ypLow',
+              'https://media.licdn.com/dms/image/v2/D562DAQEi6GO-KT5gfA/profile-treasury-image-shrink_800_800/B56Zpt_ue6JkAc-/0/1762782014410?e=1767319200&v=beta&t=6RkNtAGXt1IIFasm7fBBgsdNm8uZmJClKx82_-ncTxI',
+              'https://media.licdn.com/dms/image/v2/D562DAQFJq_DH7VwxBw/profile-treasury-image-shrink_800_800/B56Zpt_ue7KEAY-/0/1762782014257?e=1767319200&v=beta&t=rHpScJYOUzrRphe2_krEsos794CXZaLRXBJJ2XHLu4U'
             ],
             videos: ['https://youtu.be/7JN0knxwZK0?si=A4cLcnYUpg9Cs4Q5'],
           },
@@ -79,8 +79,8 @@ const CONFIG = {
               'Python', 'OpenCV', 'YOLO11', 'PaddleOCR', 'Multiprocessing', 'Multithreading', 'MongoDB', 'Docker', 'Redis'
             ],
             images: [
-              'https://media.licdn.com/dms/image/v2/D562DAQFQQT7LwjmbPQ/profile-treasury-image-shrink_1280_1280/B56ZpuDdcIG0AU-/0/1762782993399?e=1765015200&v=beta&t=cpGXsaOo-Lc_g5GQGnaVYWkSsD4SFrnQCUmu-TVyxjY',
-              'https://media.licdn.com/dms/image/v2/D562DAQFwuSLASbSZpw/profile-treasury-image-shrink_1280_1280/B56ZpuDdcKI8AQ-/0/1762782993638?e=1765015200&v=beta&t=uz0SMazABMMICD6CxlyOSS0XiH_afSbZhVP5k_L1xS0',
+              'https://media.licdn.com/dms/image/v2/D562DAQFQQT7LwjmbPQ/profile-treasury-image-shrink_800_800/B56ZpuDdcIG0Ac-/0/1762782993366?e=1767319200&v=beta&t=x6USV-mUx5H58Ftd-xy22lnilIYLylWZtHWAj5xX6ns',
+              'https://media.licdn.com/dms/image/v2/D562DAQFwuSLASbSZpw/profile-treasury-image-shrink_800_800/B56ZpuDdcKI8AY-/0/1762782993633?e=1767319200&v=beta&t=EgXkqBG2Z1YzUfUDlAo5j2oUhGRyZDxCYC6XRnEJfg4',
             ],
             videos: [],
           },
@@ -123,9 +123,9 @@ const CONFIG = {
               'Python', 'PyTorch', 'TensorRT', 'YOLO11', 'OpenCV', 'HLS', 'Docker', 'Kafka', 'PostgreSQL', 'MQTT', 'FastAPI'
             ],
             images: [
-              'https://media.licdn.com/dms/image/v2/D562DAQHZG7HvFKaoxA/profile-treasury-image-shrink_1280_1280/B56ZpuIVzJJQAQ-/0/1762784272212?e=1765015200&v=beta&t=938aqTWCm5SsfxztflJv3FfCHnxckEtw8sEPi1325Q8',
-              'https://media.licdn.com/dms/image/v2/D562DAQHjTQK1q9Q2Mw/profile-treasury-image-shrink_1280_1280/B56Za_K41pGkAQ-/0/1746964026085?e=1765015200&v=beta&t=ifce5hhw4YkGDIbSj7A57XcEgGBBvedjslrrKHxc9bY',
-              'https://media.licdn.com/dms/image/v2/D562DAQE64AZLnMAEDg/profile-treasury-image-shrink_1280_1280/B56Za_K0jVH4AQ-/0/1746964008992?e=1765015200&v=beta&t=ma4Y52LJne5Q47s6FWfLYtkyenkDNYKHa1MWbaMNnqE'
+              'https://media.licdn.com/dms/image/v2/D562DAQHZG7HvFKaoxA/profile-treasury-image-shrink_800_800/B56ZpuIVzJJQAY-/0/1762784272212?e=1767319200&v=beta&t=xYgbIVUdkUfowwapwBGdcI2va0GfYXL-VC74U-nwAgE',
+              'https://media.licdn.com/dms/image/v2/D562DAQHjTQK1q9Q2Mw/profile-treasury-image-shrink_800_800/B56Za_K41pGkAY-/0/1746964026026?e=1767319200&v=beta&t=EEEGi89o5k1MUqvsjr6MYFy6BuveL-USlLDkbPXLjc4',
+              'https://media.licdn.com/dms/image/v2/D562DAQF0_DdYeT4a_Q/profile-treasury-image-shrink_800_800/B56Za_CyAUGkAY-/0/1746961904320?e=1767319200&v=beta&t=9I86cqmAeREHIRrqvawxjrihMlDrA1kM3NTB5hK8Bc0'
             ],
           },
         },
@@ -148,8 +148,8 @@ const CONFIG = {
               'Python', 'PyTorch', 'Scikit-learn', 'NLP', 'OpenCV', 'Docker', 'RabbitMQ', 'NestJS', 'Microservices', 'REST APIs'
             ],
             images: [
-              'https://media.licdn.com/dms/image/v2/D562DAQFySBhK9jW9ug/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1737862972672?e=1765015200&v=beta&t=DoGIW9P1_7_6psgoqxSC4IYJVG09bCjTdmornNf7nvM',
-              'https://media.licdn.com/dms/image/v2/D562DAQE7OPFQYnZDnw/profile-treasury-image-shrink_800_800/profile-treasury-image-shrink_800_800/0/1737863314005?e=1765015200&v=beta&t=jygi_IFhuKH00v3TM7h1l6P6WjBgs2sjgF64L2cb8y4',
+              'https://media.licdn.com/dms/image/v2/D562DAQFySBhK9jW9ug/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1737862972720?e=1767319200&v=beta&t=gaogVEwsDP5eFC2rzVlhqdw5XJQ62laL6FioFxIcvgU',
+              'https://media.licdn.com/dms/image/v2/D562DAQE7OPFQYnZDnw/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1737863313915?e=1767319200&v=beta&t=Cby8bylffW1iIyKyXfKo8h-uRO9vODlabtitTa8UP2Y',
             ],
           },
         },
