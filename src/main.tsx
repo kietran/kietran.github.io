@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import GitProfile from './components/gitprofile.tsx';
 import ProjectDetail from './components/project-detail';
+import ChatBubble from './components/chat-bubble';
 import { getSanitizedConfig } from './utils';
 
 const sanitizedConfig = getSanitizedConfig(CONFIG);
@@ -25,15 +26,16 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <BrowserRouter basename={CONFIG.base || '/'}>
       <Routes>
         <Route path="/" element={<GitProfile config={CONFIG} />} />
-        <Route 
-          path="/project/:projectId" 
+        <Route
+          path="/project/:projectId"
           element={
-            <ProjectDetail 
-              projects={sanitizedConfig.projects?.external?.projects || []} 
+            <ProjectDetail
+              projects={sanitizedConfig.projects?.external?.projects || []}
             />
-          } 
+          }
         />
       </Routes>
+      <ChatBubble />
     </BrowserRouter>
   </React.StrictMode>,
 );
